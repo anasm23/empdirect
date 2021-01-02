@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import axios from "axios";
+import Header from './components/Header';
+import Navbar from './components/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+
+  state = {
+    employees: [],
+  };
+
+  componentDidMount() {
+      axios.get(`https://randomuser.me/api/?results=20&nat=Aus`)
+        .then(res => {
+          this.setState({ employees: res.data.results});
+        });
+  }
+
+
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        {this.state.employees.length > 0 &&
+        <Navbar employees={this.state.employees}/>
+  }
+      </div>
+    );
+  }
 }
 
 export default App;
