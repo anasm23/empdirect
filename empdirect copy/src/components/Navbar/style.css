@@ -1,0 +1,15 @@
+.search {
+    border-color: black;
+    background-color: #d61111;  
+    align-items: space-between;
+    text-align: center;
+    padding-left: 35px;
+    width: 100%;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+}

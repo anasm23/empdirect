@@ -1,0 +1,29 @@
+.main {
+    height: 20px;
+        background-color: white;
+        display: flex;
+        align-items: flex-end;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .loader {
+        display: flex;
+        border: 1px;
+        border-radius: 15px;
+        border-color: black;
+        grid-template-columns: 15% 15% 15% 15% 15% 15% 15% 15% 15% 15% ;
+        grid-template-rows: 25px; 
+        background-color: white;
+    }
+    
+    .squarewhite {
+        width: 30;
+        height: 15px;
+    }
+    
+    .squaregrey {
+        width: 75px;
+        height: 15px;
+    }

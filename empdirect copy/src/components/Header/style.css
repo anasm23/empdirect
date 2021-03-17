@@ -1,0 +1,23 @@
+.wrapper {
+    height: 1000px;
+    background-color: #557a95;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.title {
+    font-family:'Times New Roman';
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.RAND {
+    color:silver;
+}
