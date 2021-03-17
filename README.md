@@ -10,7 +10,7 @@ A link to the deployed site: https://enigmatic-island-98485.herokuapp.com/
 
 Screenshot:
 
-<img src="empdirect/Assets/ReactApp.gif"> </img>
+<img src="empdirect/Assets/react.gif"> </img>
 
 ## Installation
 
