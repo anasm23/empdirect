@@ -11,7 +11,7 @@ Screenshot:
 <img src="https://github.com/anasm23/empdirect/blob/master/empdirect%20copy/Assets/react.gif?raw=true"> </img>
 
 ## Installation
-1. `npm i`
+1. `npm i axios`
 2. `npm start`
 
 ## Dependencies
