@@ -15,8 +15,8 @@ Screenshot:
 2. `npm start`
 
 ## Dependencies
-``
-"dependencies": {
+
+    "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
@@ -26,17 +26,17 @@ Screenshot:
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
-  },
- ``
+    },
  
- ``
-  "scripts": {
+ 
+ 
+    "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  ``
+    },
+  
   
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
