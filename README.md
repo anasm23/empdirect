@@ -8,7 +8,7 @@ Employee Directory is a React app providing necessary information for generated 
 
 Screenshot:
 
-<img src="https://github.com/anasm23/empdirect/blob/master/empdirect%20copy/Assets/react.gif?raw=true"> </img>
+<img src="Assets/React App (2).gif"> </img>
 
 ## Installation
 1. `npm i axios`
