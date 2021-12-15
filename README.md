@@ -4,13 +4,24 @@
 
 Employee Directory is a React app providing necessary information for generated users. React separates the UI into responsive components. 
 
-> A link to the deployed site: https://enigmatic-island-98485.herokuapp.com/
+## Deployed site 
 
-Screenshot:
+https://enigmatic-island-98485.herokuapp.com/
+
+## Demo
+
+
+`Original:`
+
 
 <img src="Assets/React App (2).gif"> </img>
 
+
+`
 updated:
+`
+
+
 <img src="Assets/empdirectorygif.gif"></img>
 
 ## Installation
