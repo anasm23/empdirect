@@ -1,6 +1,6 @@
 .wrapper {
     height: 350px;
-    background-color: #557a95;
+    background-color: #282c34;
     display: flex;
     align-items: center;
     align-content: center;
@@ -8,6 +8,8 @@
     vertical-align: middle;
     flex-direction: column;
     justify-content: center;
+    border-style: solid;
+    color: silver;
 
 }
 
