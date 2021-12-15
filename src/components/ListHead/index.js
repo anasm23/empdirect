@@ -2,6 +2,16 @@ import React from "react";
 import "./style.css";
 import Card from '../Card';
 
+
+
+// {/* <div className="header">
+// <div class="p">Photo</div>
+// <div><p onClick={this.sortName} className="name">Name</p></div>
+// {/* <div class="S">State</div> */}
+// <div class="A">Age</div>
+// <div class="E">Email</div>
+// <div class="P">Phone</div> */}
+
 class ListHead extends React.Component {
 
     state = {
@@ -59,14 +69,6 @@ class ListHead extends React.Component {
         return (
 
             <div>
-                <div className="header">
-                    <div class="p">Photo</div>
-                    <div><p onClick={this.sortName} className="name">Name</p></div>
-                    {/* <div class="S">State</div> */}
-                    <div class="A">Age</div>
-                    <div class="E">Email</div>
-                    <div class="P">Phone</div>
-                </div>
 
                 {
                     this.state.sortedEmployees.length > 0 &&

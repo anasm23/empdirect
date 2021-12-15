@@ -1,4 +1,4 @@
-.card {
+/* .card {
     display: grid;
     grid-template-columns:35% 10% 5% 10% 10% 15% 10%;
     grid-template-rows: 75px;
@@ -8,5 +8,19 @@
     border-style: double;
     border-width: 1px;
     box-sizing: border-box;
-}
+} */
 /* {grid-template-columns:10% 25% 5% 20% 15% 30% 40%;} */
+.img-fluid{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.text1{
+    text-align: center;
+    font-size: 75px;
+}
+.card{
+    margin: 1em;
+}
+
+

@@ -20,13 +20,11 @@ class App extends React.Component {
 
   render() {
     return ( 
-    
-   <div className="App">
+  <Container>
     <Header />
     {this.state.employees.length > 0 &&
     <Navbar employees={this.state.employees}/>}
-    </div>
-
+  </Container>
     );
   }
 }
