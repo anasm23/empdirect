@@ -1,13 +1,16 @@
 import React from "react";
 import "./style.css";
 import Wrapper from "./Wrapper";
+import {Container, Row, Col} from "./Grid"; 
 class Loader extends React.Component {
 
     render() {
         return (
             <Wrapper>
+            <Container>
             <div className="main">
                 <div className="loader">
+
                     <div className="c0 c1 c2 c3 c4 c5 c6 c7 c8 c9">
                         {this.props.loadBar >= 0 ? <div className="squaregrey"></div> : <div className="squarewhite"></div>}
                     </div>
@@ -40,6 +43,7 @@ class Loader extends React.Component {
                     </div>
                 </div>
             </div>
+            </Container>
             </Wrapper>
         );
     }
