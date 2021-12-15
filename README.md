@@ -10,6 +10,9 @@ Screenshot:
 
 <img src="Assets/React App (2).gif"> </img>
 
+updated:
+<img src="Assets/empdirectorygif.gif"></img>
+
 ## Installation
 1. `npm i axios`
 2. `npm start`
