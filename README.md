@@ -9,15 +9,6 @@ Employee Directory is a React app providing necessary information for generated 
 https://enigmatic-island-98485.herokuapp.com/
 
 ## Demo
-
-
-`Original:`
-
-
-<img src="Assets/React App (2).gif"> </img>
-
-
-`
 updated:
 `
 
@@ -25,7 +16,7 @@ updated:
 <img src="Assets/empdirectorygif.gif"></img>
 
 ## Installation
-1. `npm i axios`
+1. `npm i`
 2. `npm start`
 
 ## Dependencies
