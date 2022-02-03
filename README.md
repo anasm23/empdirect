@@ -2,17 +2,16 @@
 
 ## Introduction
 
-Employee Directory is a React app providing necessary information for generated users. React separates the UI into responsive components. 
+React based application used to quickly search for employee information and dynamically filter out employees. Employee list was populated using the random user API. 
+
+## Technologies Used
+Javascript, React, Axios, RandomUser API, Bootstrap
 
 ## Deployed site 
 
 https://enigmatic-island-98485.herokuapp.com/
 
 ## Demo
-updated:
-`
-
-
 <img src="Assets/empdirectorygif.gif"></img>
 
 ## Installation
@@ -41,13 +40,9 @@ updated:
     "test": "react-scripts test",
     "eject": "react-scripts eject"
     },
-  
-  
-Runs the app in the development mode.\
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ## License
 Copyright (c) 2020 Muhammad Anas
